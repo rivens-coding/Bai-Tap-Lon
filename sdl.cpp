@@ -142,7 +142,7 @@ bool loadMedia()
     {
         for(int j=0;j<4;j++)
         {
-            if(!gEasyCards[i][j].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_of_the_cards_level1.png" ))
+            if(!gEasyCards[i][j].loadFromFile( "./images/back_of_the_cards_level1.png" ))
             {
                 printf( "Failed to load easy sprite sheet texture!\n" );
                 success = false;
@@ -154,7 +154,7 @@ bool loadMedia()
     {
         for(int j=0;j<6;j++)
         {
-            if(!gMediumCards[i][j].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_of_the_cards_level2.png" ))
+            if(!gMediumCards[i][j].loadFromFile( "./images/back_of_the_cards_level2.png" ))
             {
                 printf( "Failed to load medium sprite sheet texture!\n" );
                 success = false;
@@ -166,7 +166,7 @@ bool loadMedia()
     {
         for(int j=0;j<9;j++)
         {
-            if(!gHardCards[i][j].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_of_the_cards_level2.png" ))
+            if(!gHardCards[i][j].loadFromFile( "./images/back_of_the_cards_level2.png" ))
             {
                 printf( "Failed to load hard sprite sheet texture!\n" );
                 success = false;
@@ -175,131 +175,131 @@ bool loadMedia()
     }
 
 	//Load sprite sheet texture
-	if( !menu_bg.loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_ground.png" ) )
+	if( !menu_bg.loadFromFile( "./images/back_ground.png" ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
-	else if( !back_ground.loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/background4.png" ) )
+	else if( !back_ground.loadFromFile( "./images/background4.png" ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
-	else if( !you_wins.loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/you_win.png" ) )
+	else if( !you_wins.loadFromFile( "./images/you_win.png" ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
-	else if( !game_over.loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/game_over.png" ) )
+	else if( !game_over.loadFromFile( "./images/game_over.png" ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
-	else if( !win_back_ground.loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/win_back_ground.png" ) )
+	else if( !win_back_ground.loadFromFile( "./images/win_back_ground.png" ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
-	else if( !lose_back_ground.loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/game_over3.png" ) )
+	else if( !lose_back_ground.loadFromFile( "./images/game_over3.png" ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
 	//Load buttons sprite sheet texture
-	else if( !gButtonSpriteSheetTexture[PLAY_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/play_button_test2.png"  ) )
+	else if( !gButtonSpriteSheetTexture[PLAY_BUTTONS].loadFromFile( "./images/play_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !gButtonSpriteSheetTexture[HELP_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/help_button_test3.png"  ) )
+	else if( !gButtonSpriteSheetTexture[HELP_BUTTONS].loadFromFile( "./images/help_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !gButtonSpriteSheetTexture[BACK_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_button.png"  ) )
+	else if( !gButtonSpriteSheetTexture[BACK_BUTTONS].loadFromFile( "./images/back_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !gButtonSpriteSheetTexture[REPLAY_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/replay_button_new.png"  ) )
+	else if( !gButtonSpriteSheetTexture[REPLAY_BUTTONS].loadFromFile( "./images/replay_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !gButtonSpriteSheetTexture[MENU_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/menu_button.png"  ) )
+	else if( !gButtonSpriteSheetTexture[MENU_BUTTONS].loadFromFile( "./images/menu_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !gButtonSpriteSheetTexture[EASY_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/easy_button.png"  ) )
+	else if( !gButtonSpriteSheetTexture[EASY_BUTTONS].loadFromFile( "./images/easy_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !gButtonSpriteSheetTexture[MEDIUM_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/medium_button.png"  ) )
+	else if( !gButtonSpriteSheetTexture[MEDIUM_BUTTONS].loadFromFile( "./images/medium_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !gButtonSpriteSheetTexture[HARD_BUTTONS].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/hard_button.png"  ) )
+	else if( !gButtonSpriteSheetTexture[HARD_BUTTONS].loadFromFile( "./images/hard_button.png"  ) )
 	{
 		printf( "Failed to load button sprite texture!\n" );
 		success = false;
 	}
-	else if( !instruction[0].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/instruction.png"  ) )
+	else if( !instruction[0].loadFromFile( "./images/instruction.png"  ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
-	else if( !instruction[1].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/instruction1.png"  ) )
+	else if( !instruction[1].loadFromFile( "./images/instruction1.png"  ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
-	else if( !instruction[2].loadFromFile( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/instruction2.png"  ) )
+	else if( !instruction[2].loadFromFile( "./images/instruction2.png"  ) )
 	{
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
 	//Load music
-	else if( !( gMusic = Mix_LoadMUS( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/jazz.wav"  ) ) )
+	else if( !( gMusic = Mix_LoadMUS( "./sounds/jazz.wav"  ) ) )
 	{
 		printf( "Failed to load beat music! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
-	else if( !( gMusic1 = Mix_LoadMUS( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/jazz1.wav"  ) ) )
+	else if( !( gMusic1 = Mix_LoadMUS( "./sounds/jazz1.wav"  ) ) )
 	{
 		printf( "Failed to load beat music1! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
-	else if( !( gMusic2 = Mix_LoadMUS( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/jazz2.wav"  ) ) )
+	else if( !( gMusic2 = Mix_LoadMUS( "./sounds/jazz2.wav"  ) ) )
 	{
 		printf( "Failed to load beat music2! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
 	//Load sound effects
-	else if( !( gFlip = Mix_LoadWAV( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/flip_card_sound.wav"  ) ) )
+	else if( !( gFlip = Mix_LoadWAV( "./sounds/flip_card_sound.wav"  ) ) )
 	{
 		printf( "Failed to load flip sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
-	else if( !( gCorrect = Mix_LoadWAV( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/correct.wav"  ) ) )
+	else if( !( gCorrect = Mix_LoadWAV( "./sounds/correct.wav"  ) ) )
 	{
 		printf( "Failed to load correct sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
-	else if( !( gWin = Mix_LoadWAV( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/win.wav"  ) ) )
+	else if( !( gWin = Mix_LoadWAV( "./sounds/win.wav"  ) ) )
 	{
 		printf( "Failed to load win sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
-	else if( !( gLose = Mix_LoadWAV( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/game_over.wav"  ) ) )
+	else if( !( gLose = Mix_LoadWAV( "./sounds/game_over.wav"  ) ) )
 	{
 		printf( "Failed to load lose sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
 	//Open the font
-	else if( !( gFont = TTF_OpenFont( "C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/font.ttf", 58 ) ) )
+	else if( !( gFont = TTF_OpenFont( "./font/font.ttf", 58 ) ) )
 	{
 		printf( "Failed to load font! SDL_ttf Error: %s\n", TTF_GetError() );
 		success = false;

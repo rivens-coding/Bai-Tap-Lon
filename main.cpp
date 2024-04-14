@@ -111,7 +111,6 @@ int main( int argc, char* args[] )
 	}
 	else
 	{
-		int i=0;//Load media
 		if( !loadMedia() )
 		{
 			printf( "Failed to load media!\n" );
@@ -119,7 +118,6 @@ int main( int argc, char* args[] )
 		else
 		{
 			mix_cards(last_played);
-			//print_cards();
 
 			//Main loop flag
 			bool quit = false;
@@ -223,7 +221,7 @@ int main( int argc, char* args[] )
                     SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
                     SDL_RenderClear( gRenderer );
 
-                    menuScreen(e);
+                    levelScreen(e);
                 }
                 else if(monitor == 2)
                 {
@@ -257,3 +255,4 @@ int main( int argc, char* args[] )
 
 	return 0;
 }
+

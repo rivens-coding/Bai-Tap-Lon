@@ -469,7 +469,6 @@ int find_card_suit(SDL_Event e)
             }
         }
     }
-    else return 50; // just in case the user clicks outside the designated area.
 }
 
  // when two cards are facing up will check if they have the same suit.
@@ -675,70 +674,70 @@ void draw_update(SDL_Event e)
     {
         if (suit == CARD1)
         {
-            gEasyCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card1_level1.png");
+            gEasyCards[y][x].loadFromFile("./images/card1_level1.png");
         }
         if (suit == CARD2)
         {
-            gEasyCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card2_level1.png");
+            gEasyCards[y][x].loadFromFile("./images/card2_level1.png");
         }
         if (suit == CARD3)
         {
-            gEasyCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card3_level1.png");
+            gEasyCards[y][x].loadFromFile("./images/card3_level1.png");
         }
         if (suit == CARD4)
         {
-            gEasyCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card4_level1.png");
+            gEasyCards[y][x].loadFromFile("./images/card4_level1.png");
         }
     }
     if(monitor == 3)
     {
         if (suit == CARD5)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card5_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card5_level2.png");
         }
         if (suit == CARD6)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card6_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card6_level2.png");
         }
         if (suit == CARD7)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card7_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card7_level2.png");
         }
         if (suit == CARD8)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card8_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card8_level2.png");
         }
         if (suit == CARD9)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card9_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card9_level2.png");
         }
         if (suit == CARD10)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card10_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card10_level2.png");
         }
         if (suit == CARD11)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card11_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card11_level2.png");
         }
         if (suit == CARD12)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card12_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card12_level2.png");
         }
         if (suit == CARD13)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card13_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card13_level2.png");
         }
         if (suit == CARD14)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card14_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card14_level2.png");
         }
         if (suit == CARD15)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card15_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card15_level2.png");
         }
         if (suit == CARD16)
         {
-            gMediumCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card16_level2.png");
+            gMediumCards[y][x].loadFromFile("./images/card16_level2.png");
         }
     }
 
@@ -746,75 +745,75 @@ void draw_update(SDL_Event e)
     {
         if (suit == CARD1)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card1_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card1_level2.png");
         }
         if (suit == CARD2)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card2_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card2_level2.png");
         }
         if (suit == CARD3)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card3_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card3_level2.png");
         }
         if (suit == CARD4)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card4_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card4_level2.png");
         }
         if (suit == CARD5)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card5_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card5_level2.png");
         }
         if (suit == CARD6)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card6_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card6_level2.png");
         }
         if (suit == CARD7)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card7_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card7_level2.png");
         }
         if (suit == CARD8)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card8_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card8_level2.png");
         }
         if (suit == CARD9)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card9_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card9_level2.png");
         }
         if (suit == CARD10)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card10_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card10_level2.png");
         }
         if (suit == CARD11)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card11_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card11_level2.png");
         }
         if (suit == CARD12)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card12_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card12_level2.png");
         }
         if (suit == CARD13)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card13_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card13_level2.png");
         }
         if (suit == CARD14)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card14_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card14_level2.png");
         }
         if (suit == CARD15)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card15_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card15_level2.png");
         }
         if (suit == CARD16)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card16_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card16_level2.png");
         }
         if (suit == CARD17)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card17_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card17_level2.png");
         }
         if (suit == CARD18)
         {
-            gHardCards[y][x].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/card18_level2.png");
+            gHardCards[y][x].loadFromFile("./images/card18_level2.png");
         }
     }
 
@@ -824,9 +823,9 @@ void draw_update(SDL_Event e)
 
 void check (SDL_Event* e)
 {
-    if(monitor == 2)
+    if (is_match()==true)
     {
-        if (is_match()==true)
+        if(monitor == 2)
         {
             for (int i=0; i< 2; i++)
             {
@@ -839,10 +838,7 @@ void check (SDL_Event* e)
                 }
             }
         }
-    }
-    if(monitor == 3)
-    {
-        if (is_match()==true)
+        if(monitor == 3)
         {
             for (int i=0; i< 4; i++)
             {
@@ -856,10 +852,7 @@ void check (SDL_Event* e)
                 }
             }
         }
-    }
-    if(monitor == 4)
-    {
-        if (is_match()==true)
+        if(monitor == 4)
         {
             for (int i=0; i< 4; i++)
             {
@@ -878,9 +871,9 @@ void check (SDL_Event* e)
 
 void un_match(int round)
 {
-    if(round == 2)
+    if(is_match()==false)
     {
-        if(is_match()==false)
+        if(round == 2)
         {
             for (int i=0; i< 2; i++)
             {
@@ -888,15 +881,12 @@ void un_match(int round)
                 {
                     if (gEasyCards[i][j].state == FACE_DOWN)
                     {
-                        gEasyCards[i][j].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_of_the_cards_level1.png");
+                        gEasyCards[i][j].loadFromFile("./images/back_of_the_cards_level1.png");
                     }
                 }
             }
         }
-    }
-    if(round == 3)
-    {
-        if(is_match()== false)
+        if(round == 3)
         {
             for (int i=0; i< 4; i++)
             {
@@ -904,15 +894,12 @@ void un_match(int round)
                 {
                     if (gMediumCards[i][j].state==FACE_DOWN)
                     {
-                        gMediumCards[i][j].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_of_the_cards_level2.png");
+                        gMediumCards[i][j].loadFromFile("./images/back_of_the_cards_level2.png");
                     }
                 }
             }
         }
-    }
-    if(round == 4)
-    {
-        if(is_match()==false)
+        if(round == 4)
         {
             for (int i=0; i< 4; i++)
             {
@@ -920,7 +907,7 @@ void un_match(int round)
                 {
                     if (gHardCards[i][j].state==FACE_DOWN)
                     {
-                        gHardCards[i][j].loadFromFile("C:/Users/FFMW/Dropbox/My PC (LAPTOP-5AN6CR2Q)/Desktop/tai lieu/back_of_the_cards_level2.png");
+                        gHardCards[i][j].loadFromFile("./images/back_of_the_cards_level2.png");
                     }
                 }
             }
@@ -1308,7 +1295,7 @@ void GamePlay(SDL_Event* e)
     }
 }
 
-void menuScreen(SDL_Event e)
+void levelScreen(SDL_Event e)
 {
     SDL_RenderClear(gRenderer);
     menu_bg.render(0,0,NULL);

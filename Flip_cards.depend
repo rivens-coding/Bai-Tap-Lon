@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1620655329 source:d:\codeincodeblock\flip_cards\lbuttons.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"LTexture.h"
+	"sdl.h"
+	"LButtons.h"
+	"logic.h"
+
+1713095535 source:d:\codeincodeblock\flip_cards\logic.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	"LTexture.h"
+	"sdl.h"
+	"LButtons.h"
+	"logic.h"
+
+1620654893 source:d:\codeincodeblock\flip_cards\ltexture.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"LTexture.h"
+
+1713095365 source:d:\codeincodeblock\flip_cards\sdl.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	<iostream>
+	"LTexture.h"
+	"sdl.h"
+	"LButtons.h"
+
+1620817565 source:d:\codeincodeblock\flip_cards\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	<iostream>
+	<sstream>
+	"LTexture.h"
+	"sdl.h"
+	"LButtons.h"
+	"logic.h"
+
+1620654222 d:\codeincodeblock\flip_cards\ltexture.h
+	<sstream>
+	"LButtons.h"
+
+1620654893 d:\codeincodeblock\flip_cards\lbuttons.h
+
+1620653816 d:\codeincodeblock\flip_cards\sdl.h
+
+1713096061 d:\codeincodeblock\flip_cards\logic.h
+

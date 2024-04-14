@@ -1,6 +1,11 @@
 #ifndef LOGIC__H
 #define LOGIC__H
 
+// const int CARDS[];
+// for(int i = 0; i < 18; i++){
+//   CARDS[i] = i;
+// }
+
 const int CARD1 = 0;
 const int CARD2 = 1;
 const int CARD3 = 2;
@@ -36,7 +41,7 @@ void mix_cards(int round);
 void mouse(SDL_Event e,int i, int j);
 void Menu(SDL_Event e);
 void GamePlay(SDL_Event* e);
-void menuScreen(SDL_Event e);
+void levelScreen(SDL_Event e);
 void winScreen(SDL_Event e);
 void loseScreen(SDL_Event e);
 
